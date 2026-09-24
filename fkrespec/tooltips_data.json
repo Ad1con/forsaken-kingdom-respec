@@ -1,0 +1,590 @@
+{
+ "AHa2": {
+  "desc": "",
+  "learn": "",
+  "levels": [
+   "20#"
+  ],
+  "name": "Sacred Aura"
+ },
+ "AHa3": {
+  "desc": "",
+  "learn": "Gives additional Magic Resistance, increased healing received, and mana regeneration to nearby friendly units. \n\nLevel 1 - 15% Magic Resistance, 15% increased healing received, 15 mana regeneration per second. \nLevel 2 - 25% Magic Resistance, 20% increased healing received, 20 mana regeneration per second. \nLevel 3 - 35% Magic Resistance, 25% increased healing received, 25 mana regeneration per second.",
+  "levels": [
+   "Gives 15% Magic Resistance, 15% increased healing received, and 1 mana regeneration per second to nearby friendly units.",
+   "Gives 25% Magic Resistance, 20% increased healing received, and 1 mana regeneration per second to nearby friendly units.",
+   "Gives 35% Magic Resistance, 25% increased healing recieved, and 2 mana regeneration per second to nearby friendly units."
+  ],
+  "name": "Sacred Aura"
+ },
+ "AHas": {
+  "desc": "",
+  "learn": "Gives additional Magic Resistance and increased healing received to nearby friendly units. \n\nLevel 1 - 15% Magic Resistance, 15% increased healing received. \nLevel 2 - 25% Magic Resistance, 20% increased healing received. \nLevel 3 - 35% Magic Resistance, Gives 35% Magic Resistance and 25% increased healing received.",
+  "levels": [
+   "Gives 15% Magic Resistance and 15% increased healing received to nearby friendly units.",
+   "Gives 25% Magic Resistance and 20% increased healing received to nearby friendly units.",
+   "Gives 35% Magic Resistance and Gives 35% Magic Resistance and 25% increased healing recieved to nearby friendly units."
+  ],
+  "name": "Sacred Aura"
+ },
+ "AHb3": {
+  "desc": "",
+  "learn": "Take reduced damage, at the cost of movement speed. Taking damage grants increased attack rate. \n\nLevel 1 - 40% reduced damage, 30% reduced movement speed, 15% attack rate for 3 seconds. Lasts 15 seconds. \nLevel 2 - 50% reduced damage, 20% reduced movement speed, 20% attack rate for 3 seconds. Lasts 15 seconds. \nLevel 3 - 60% reduced damage, 10% reduced movement speed, 25% attack rate for 3 seconds. Lasts 15 seconds.",
+  "levels": [
+   "Enter a defensive stance, reducing incoming damage by 40% and movement speed by 30%. During this time, if Garek takes any damage, he gains 15% attack rate for 3 seconds. \nLasts 15 seconds.",
+   "Enter a defensive stance, reducing incoming damage by 50% and movement speed by 20%. During this time, if Garek takes any damage, he gains 20% attack rate for 3 seconds. \nLasts 15 seconds.",
+   "Enter a defensive stance, reducing incoming damage by 60% and movement speed by 10%. During this time, if Garek takes any damage, he gains 25% attack rate for 3 seconds. \nLasts 15 seconds."
+  ],
+  "name": "Unyielding Guard"
+ },
+ "AHbd": {
+  "desc": "",
+  "learn": "Take reduced damage, at the cost of movement speed. Taking damage grants increased attack rate. \n\nLevel 1 - 40% reduced damage, 40% reduced movement speed, 15% attack rate for 3 seconds. Lasts 10 seconds. \nLevel 2 - 50% reduced damage, 40% reduced movement speed, 20% attack rate for 3 seconds. Lasts 10 seconds. \nLevel 3 - 60% reduced damage, 40% reduced movement speed, 25% attack rate for 3 seconds. Lasts 10 seconds.",
+  "levels": [
+   "Enter a defensive stance, reducing incoming damage by 40% and movement speed by 40%. During this time, if Garek takes any damage, he gains 15% attack rate for 3 seconds. \nLasts 10 seconds.",
+   "Enter a defensive stance, reducing incoming damage by 50% and movement speed by 40%. During this time, if Garek takes any damage, he gains 20% attack rate for 3 seconds. \nLasts 10 seconds.",
+   "Enter a defensive stance, reducing incoming damage by 60% and movement speed by 40%. During this time, if Garek takes any damage, he gains 25% attack rate for 3 seconds. \nLasts 10 seconds."
+  ],
+  "name": "Unyielding Guard"
+ },
+ "AHc3": {
+  "desc": "",
+  "learn": "Dash towards a target point, dealing damage and stunning enemy units. Dispels all magic on Garek.\n\nLevel 1 - 100 damage, 1 second stun. \nLevel 2 - 125 damage, 2 second stun. \nLevel 3 - 150 damage, 3 second stun.",
+  "levels": [
+   "Dashes towards a target point, dealing 100 damage to enemy units hit along the way, and stunning them for 1 seconds. Dispels all magic on Garek.",
+   "Dashes towards a target point, dealing 125 damage to enemy units hit along the way, and stunning them for 2 seconds. Dispels all magic on Garek.",
+   "Dashes towards a target point, dealing 150 damage to enemy units hit along the way, and stunning them for 3 seconds. Dispels all magic on Garek."
+  ],
+  "name": "Valiant Charge"
+ },
+ "AHch": {
+  "desc": "",
+  "learn": "Dash towards a target point, dealing damage and stunning enemy units.\n\nLevel 1 - 100 damage, 1 second stun. \nLevel 2 - 125 damage, 2 second stun. \nLevel 3 - 150 damage, 3 second stun.",
+  "levels": [
+   "Dashes towards a target point, dealing 100 damage to enemy units hit along the way, and stunning them for 1 seconds.",
+   "Dashes towards a target point, dealing 125 damage to enemy units hit along the way, and stunning them for 2 seconds.",
+   "Dashes towards a target point, dealing 150 damage to enemy units hit along the way, and stunning them for 3 seconds."
+  ],
+  "name": "Valiant Charge"
+ },
+ "AHct": {
+  "desc": "",
+  "learn": "",
+  "levels": [
+   "Place a banner at a target location, increasing nearby allied unit's Critical Strike chance by 50% and Spell Critical chance by 50%.\nLasts 20 seconds."
+  ],
+  "name": "Raise the Banner"
+ },
+ "AHe3": {
+  "desc": "",
+  "learn": "",
+  "levels": [
+   "10%"
+  ],
+  "name": "Apprehend"
+ },
+ "AHen": {
+  "desc": "",
+  "learn": "Throw a net at an enemy, ensnaring them and reducing their attack rate. \n\nLevel 1 - 30% attack rate, 8 seconds. \nLevel 2 - 45% attack rate, 10 seconds.\nLevel 3 - 60% attack rate, 15 seconds.",
+  "levels": [
+   "Throw a net at an enemy, ensnaring them. Ensnared units have their attack rate reduced by 30% and cannot move.\nLasts 8 seconds.",
+   "Throw a net at an enemy, ensnaring them. Ensnared units have their attack rate reduced by 45% and cannot move.\nLasts 10 seconds.",
+   "Throw a net at an enemy, ensnaring them. Ensnared units have their attack rate reduced by 60% and cannot move.\nLasts 15 seconds."
+  ],
+  "name": "Apprehend"
+ },
+ "AHgh": {
+  "desc": "",
+  "learn": "Leonid inspires nearby friendly units, granting several bonuses.\nDrains mana until deactivated. \n\nLevel 1 - 20% attack rate, 10% Ability Speed, 10% movement speed. \nLevel 2 - 30% attack rate, 25% Ability Speed, 15% movement speed. \nLevel 3 - 40% attack rate, 40% Ability Speed, 20% movement speed",
+  "levels": [
+   "20c"
+  ],
+  "name": "Guiding Hand"
+ },
+ "AHhc": {
+  "desc": "",
+  "learn": "Gain a shield and taunt nearby enemies.\n\nLevel 1 - 200 damage shield, 450 range taunt for 5 seconds.\nLevel 2 - 275 damage shield, 500 range taunt for 5 seconds. \nLevel 3 - 350 damage shield, 550 range taunt for 5 seconds.\nLevel 4 - 425 damage shield, 600 range taunt for 5 seconds. \nLevel 5 - 500 damage shield, 650 range taunt for 5 seconds.",
+  "levels": [
+   "Gain a shield that can absorb 200 damage, and taunt all nearby enemies within 450 range for 5 seconds.",
+   "Gain a shield that can absorb 275 damage, and taunt all nearby enemies within 500 range for 5 seconds.",
+   "Gain a shield that can absorb 350 damage, and taunt all nearby enemies within 550 range for 5 seconds.",
+   "Gain a shield that can absorb 425 damage, and taunt all nearby enemies within 600 range for 5 seconds.",
+   "Gain a shield that can absorb 500 damage, and taunt all nearby enemies within 650 range for 5 seconds."
+  ],
+  "name": "Provoke"
+ },
+ "AHhr": {
+  "desc": "",
+  "learn": "Empower the next attack, dealing bonus damage and stunning the target.\n\nLevel 1 - 100 bonus damage, 2 second stun duration.\nLevel 2 - 150 bonus damage, 2 second stun duration. \nLevel 3 - 200 bonus damage, 2 second stun duration.\nLevel 4 - 250 bonus damage, 3 second stun duration. \nLevel 5 - 300 bonus damage, 3 second stun duration.",
+  "levels": [
+   "Empower the next attack, dealing 100 bonus damage and stunning the target for 2 seconds.",
+   "Empower the next attack, dealing 150 bonus damage and stunning the target for 2 seconds.",
+   "Empower the next attack, dealing 200 bonus damage and stunning the target for 2 seconds.",
+   "Empower the next attack, dealing 250 bonus damage and stunning the target for 3 seconds.",
+   "Empower the next attack, dealing 300 bonus damage and stunning the target for 3 seconds."
+  ],
+  "name": "Headsplitter"
+ },
+ "AHhs": {
+  "desc": "",
+  "learn": "Attack a target, dealing bonus damage to them if they are debuffed. \n\nLevel 1 - 100 damage, 25% bonus damage. \nLevel 2 - 200 damage, 35% bonus damage. \nLevel 3 - 300 damage, 45% bonus damage.",
+  "levels": [
+   "Attack a target, dealing 100 damage. Deals 25% extra damage to debuffed enemies.",
+   "Attack a target, dealing 200 damage. Deals 35% extra damage to debuffed enemies.",
+   "Attack a target, dealing 300 damage. Deals 45% extra damage to debuffed enemies."
+  ],
+  "name": "Heroic Slash"
+ },
+ "AHi1": {
+  "desc": "",
+  "learn": "",
+  "levels": [
+   "Increase Inspire Courage duration to 20 seconds. Inspire Courage now also dispels all debuffs on friendly units."
+  ],
+  "name": "Inspire Courage"
+ },
+ "AHi3": {
+  "desc": "",
+  "learn": "Nearby friendly units gain increased armor and Magic Resistance for a duration.\n\nLevel 1 - 5 armor, 25% Magic Resistance for 15 seconds. \nLevel 2 - 10 armor, 50% Magic Resistance for 15 seconds. \nLevel 3 - 15 armor, 75% Magic Resistance for 15 seconds.",
+  "levels": [
+   "Landen inspires his allies, increasing their armor by 5 and Magic Resistance by 25%.\nLasts 15 seconds.",
+   "Landen inspires his allies, increasing their armor by 10 and Magic Resistance by 50%.\nLasts 15 seconds.",
+   "Landen inspires his allies, increasing their armor by 15 and Magic Resistance by 75%.\nLasts 15 seconds."
+  ],
+  "name": "Inspire Courage"
+ },
+ "AHic": {
+  "desc": "",
+  "learn": "Nearby friendly units gain increased armor and Magic Resistance for a duration.\n\nLevel 1 - 3 armor, 15% Magic Resistance for 15 seconds. \nLevel 2 - 7 armor, 25% Magic Resistance for 15 seconds. \nLevel 3 - 10 armor, 35% Magic Resistance for 15 seconds.",
+  "levels": [
+   "Landen inspires his allies, increasing their armor by 3 and Magic Resistance by 15%.\nLasts 15 seconds.",
+   "Landen inspires his allies, increasing their armor by 7 and Magic Resistance by 25%.\nLasts 15 seconds.",
+   "Landen inspires his allies, increasing their armor by 10 and Magic Resistance by 35%.\nLasts 15 seconds."
+  ],
+  "name": "Inspire Courage"
+ },
+ "AHl1": {
+  "desc": "",
+  "learn": "",
+  "levels": [
+   "Holy Bolts now also restore 10 mana."
+  ],
+  "name": "Holy Bolts"
+ },
+ "AHl2": {
+  "desc": "",
+  "learn": "",
+  "levels": [
+   "Holy Bolts additionally heal 5 hit points per second for 5 seconds."
+  ],
+  "name": "Holy Bolts"
+ },
+ "AHl3": {
+  "desc": "",
+  "learn": "",
+  "levels": [
+   "Holy Bolts now heals for 150, but has a 8 second cooldown."
+  ],
+  "name": "Holy Bolts"
+ },
+ "AHs3": {
+  "desc": "",
+  "learn": "Strikes the target area, dealing damage and restoring hit points per enemy hit. \n\nLevel 1 - 65 damage, 15 hit points. \nLevel 2 - 100 damage, 25 hit points. \nLevel 3 - 135 damage 35 hit points.",
+  "levels": [
+   "Strikes the target area, dealing 65 damage to enemy units, and restoring 15 hit points per unit hit.",
+   "Strikes the target area, dealing 100 damage to enemy units, and restoring 25 hit points per unit hit.",
+   "Strikes the target area, dealing 135 damage to enemy units, and restoring 35 hit points per unit hit."
+  ],
+  "name": "Sweeping Strike"
+ },
+ "AHsl": {
+  "desc": "",
+  "learn": "",
+  "levels": [
+   "Passive: Ilastar's attacks against enemies cast a Holy Bolt on the most damaged friendly unit within 800 range, healing 25 hit points.\n\nActive: Ilastar becomes imbued with the Light, increasing his attack rate by 50% and movement speed by 50%, and increasing the effectiveness of Holy Bolt by 100%.\nLasts 10 seconds."
+  ],
+  "name": "Holy Bolts"
+ },
+ "AHv1": {
+  "desc": "",
+  "learn": "Attack a target, dealing bonus damage to them if they are debuffed, and restore a percentage of the damage dealt as hit points. \n\nLevel 1 - 100 damage, 25% bonus damage, 25% damage healed. \nLevel 2 - 200 damage, 35% bonus damage, 35% damage healed. \nLevel 3 - 300 damage, 45% bonus damage, 45% damage healed.",
+  "levels": [
+   "Attack a target, dealing 100 damage. Deals 25% extra damage to debuffed enemies. Restores hit points equal to 25% of damage dealt.",
+   "Attack a target, dealing 200 damage. Deals 35% extra damage to debuffed enemies. Restores hit points equal to 35% of damage dealt.",
+   "Attack a target, dealing 300 damage. Deals 45% extra damage to debuffed enemies. Restores hit points equal to 45% of damage dealt."
+  ],
+  "name": "Heroic Slash"
+ },
+ "AHv2": {
+  "desc": "",
+  "learn": "Attack a target, dealing bonus damage to them if they are debuffed. \n\nLevel 1 - 100 damage, 25% bonus damage. \nLevel 2 - 200 damage, 35% bonus damage. \nLevel 3 - 300 damage, 45% bonus damage.",
+  "levels": [
+   "Attack a target, dealing 100 damage. Deals 25% extra damage to debuffed enemies.",
+   "Attack a target, dealing 200 damage. Deals 35% extra damage to debuffed enemies.",
+   "Attack a target, dealing 300 damage. Deals 45% extra damage to debuffed enemies."
+  ],
+  "name": "Heroic Slash"
+ },
+ "AHwc": {
+  "desc": "",
+  "learn": "",
+  "levels": [
+   "Garek lets out a defiant battle cry, granting his attacks 50% cleave damage, 50% Lifesteal, and 25% Ability Vamp. \nLasts 20 seconds."
+  ],
+  "name": "Warcry"
+ },
+ "AHz1": {
+  "desc": "",
+  "learn": "ies. \n\nLevel 1 - 75 dam",
+  "levels": [],
+  "name": "Mind Control"
+ },
+ "AT5a": {
+  "desc": "Increase Critical Strike chance by 10% and Critical Damage by 20%.",
+  "learn": "",
+  "levels": [],
+  "name": "Marksmanship"
+ },
+ "AT5b": {
+  "desc": "Increase Spell Critical chance by 15% and Spell Critical damage by 25%.",
+  "learn": "",
+  "levels": [],
+  "name": "Arcane Archer"
+ },
+ "AT5c": {
+  "desc": "Anya's attacks now poison targets, dealing 10 damage per second, and reducing their movement speed by 15%.",
+  "learn": "",
+  "levels": [],
+  "name": "Poison-tipped Arrows"
+ },
+ "AT6a": {
+  "desc": "Grants 15 bonus Agility, but reduces Strength by -5.",
+  "learn": "",
+  "levels": [],
+  "name": "Ranger's Dexterity"
+ },
+ "AT6b": {
+  "desc": "Increases Evasion chance by 18%.",
+  "learn": "",
+  "levels": [],
+  "name": "Heightened Reflexes"
+ },
+ "AT6c": {
+  "desc": "Gain 15% Spell Amp.",
+  "learn": "",
+  "levels": [],
+  "name": "Blackened Soul"
+ },
+ "AUb1": {
+  "desc": "",
+  "learn": "Take reduced damage, and reflecting damage, at the cost of movement speed. Taking damage grants increased attack rate. \n\nLevel 1 - 65% reduced damage, 40% reduced movement speed, 35% melee damage reflected, 30% attack rate for 3 seconds. Lasts 10 seconds. \nLevel 2 - 65% reduced damage, 40% reduced movement speed, 45% melee damage reflected, 35% attack rate for 3 seconds. Lasts 10 seconds. \nLevel 3 - 65% reduced damage, 40% reduced movement speed, 55% melee damage reflected, 40% attack rate for 3 seconds. Lasts 10 seconds. \nLevel 4 - 65% reduced damage, 40% reduced movement speed, 65% melee damage reflected, 45% attack rate for 3 seconds. Lasts 10 seconds.",
+  "levels": [
+   "Enter a defensive stance, reducing incoming damage by 65% and movement speed by 40%. Reflects 35% melee damage back to the attacker. During this time, if Garek takes any damage, he gains 30% attack rate for 3 seconds. \nLasts 10 seconds.",
+   "Enter a defensive stance, reducing incoming damage by 65% and movement speed by 40%. Reflects 45% melee damage back to the attacker. During this time, if Garek takes any damage, he gains 35% attack rate for 3 seconds. \nLasts 10 seconds.",
+   "Enter a defensive stance, reducing incoming damage by 65% and movement speed by 40%. Reflects 55% melee damage back to the attacker. During this time, if Garek takes any damage, he gains 40% attack rate for 3 seconds. \nLasts 10 seconds.",
+   "Enter a defensive stance, reducing incoming damage by 65% and movement speed by 40%. Reflects 65% melee damage back to the attacker. During this time, if Garek takes any damage, he gains 45% attack rate for 3 seconds. \nLasts 10 seconds.",
+   "r - [Level %d]"
+  ],
+  "name": "Undying Defiance"
+ },
+ "AUb2": {
+  "desc": "",
+  "learn": "Take reduced damage, at the cost of movement speed. Taking damage grants increased attack rate. \n\nLevel 1 - 65% reduced damage, 40% reduced movement speed, 30% attack rate for 3 seconds. Lasts 10 seconds. \nLevel 2 - 65% reduced damage, 40% reduced movement speed, 35% attack rate for 3 seconds. Lasts 10 seconds. \nLevel 3 - 65% reduced damage, 40% reduced movement speed, 40% attack rate for 3 seconds. Lasts 10 seconds. \nLevel 4 - 65% reduced damage, 40% reduced movement speed, 45% attack rate for 3 seconds. Lasts 10 seconds.",
+  "levels": [
+   "Enter a defensive stance, reducing incoming damage by 65% and movement speed by 40%. During this time, if Garek takes any damage, he gains 30% attack rate for 3 seconds. \nLasts 10 seconds.",
+   "Enter a defensive stance, reducing incoming damage by 65% and movement speed by 40%. During this time, if Garek takes any damage, he gains 35% attack rate for 3 seconds. \nLasts 10 seconds.",
+   "Enter a defensive stance, reducing incoming damage by 65% and movement speed by 40%. During this time, if Garek takes any damage, he gains 40% attack rate for 3 seconds. \nLasts 10 seconds.",
+   "Enter a defensive stance, reducing incoming damage by 65% and movement speed by 40%. During this time, if Garek takes any damage, he gains 45% attack rate for 3 seconds. \nLasts 10 seconds."
+  ],
+  "name": "Undying Defiance"
+ },
+ "AUb3": {
+  "desc": "",
+  "learn": "Reduce movement speed. Taking damage grants increased attack rate and Ability Speed. \n\nLevel 1 - 40% reduced movement speed, 50% attack rate, and 30% Ability Speed for 10 seconds. Lasts 10 seconds. \nLevel 2 - 40% reduced movement speed, 55% attack rate, and 35% Ability Speed for 10 seconds. Lasts 10 seconds. \nLevel 3 - 40% reduced movement speed, 60% attack rate, and 40% Ability Speed for 10 seconds. Lasts 10 seconds. \nLevel 4 - 40% reduced movement speed, 65% attack rate, and 45% Ability Speed for 10 seconds. Lasts 10 seconds.",
+  "levels": [
+   "Enter a defensive stance, reducing movement speed by 40%. During this time, if Garek takes any damage, he gains 50% attack rate and 30% Ability Speed for 10 seconds. \nLasts 10 seconds.",
+   "Enter a defensive stance, reducing movement speed by 40%. During this time, if Garek takes any damage, he gains 55% attack rate and 35% Ability Speed for 10 seconds. \nLasts 10 seconds.",
+   "Enter a defensive stance, reducing movement speed by 40%. During this time, if Garek takes any damage, he gains 60% attack rate and 40% Ability Speed for 10 seconds. \nLasts 10 seconds.",
+   "Enter a defensive stance, reducing movement speed by 40%. During this time, if Garek takes any damage, he gains 65% attack rate and 45% Ability Speed for 10 seconds. \nLasts 10 seconds.",
+   "- [Level 5616#"
+  ],
+  "name": "Undying Defiance"
+ },
+ "AUbd": {
+  "desc": "",
+  "learn": "Take reduced damage, at the cost of movement speed. Taking damage grants increased attack rate. \n\nLevel 1 - 65% reduced damage, 40% reduced movement speed, 30% attack rate for 3 seconds. Lasts 10 seconds. \nLevel 2 - 65% reduced damage, 40% reduced movement speed, 35% attack rate for 3 seconds. Lasts 10 seconds. \nLevel 3 - 65% reduced damage, 40% reduced movement speed, 40% attack rate for 3 seconds. Lasts 10 seconds. \nLevel 4 - 65% reduced damage, 40% reduced movement speed, 45% attack rate for 3 seconds. Lasts 10 seconds.",
+  "levels": [
+   "Enter a defensive stance, reducing incoming damage by 65% and movement speed by 40%. During this time, if Garek takes any damage, he gains 30% attack rate for 3 seconds. \nLasts 10 seconds.",
+   "Enter a defensive stance, reducing incoming damage by 65% and movement speed by 40%. During this time, if Garek takes any damage, he gains 35% attack rate for 3 seconds. \nLasts 10 seconds.",
+   "Enter a defensive stance, reducing incoming damage by 65% and movement speed by 40%. During this time, if Garek takes any damage, he gains 40% attack rate for 3 seconds. \nLasts 10 seconds.",
+   "Enter a defensive stance, reducing incoming damage by 65% and movement speed by 40%. During this time, if Garek takes any damage, he gains 45% attack rate for 3 seconds. \nLasts 10 seconds."
+  ],
+  "name": "Undying Defiance"
+ },
+ "AUbr": {
+  "desc": "",
+  "learn": "Dash towards a target point, dealing damage and gaining bonus attack damage per enemy hit.\n\nLevel 1 - 100 damage, 3 bonus damage per enemy unit hit. \nLevel 2 - 125 damage, 6 bonus damage per enemy unit hit. \nLevel 3 - 150 damage, 9 bonus damage per enemy unit hit.\nLevel 4 - 175 damage, 12 bonus damage per enemy unit hit.\nLevel 5 - 200 damage, 15 bonus damage per enemy unit hit.",
+  "levels": [
+   ", 3 c"
+  ],
+  "name": "Battering Ram"
+ },
+ "AUd1": {
+  "desc": "",
+  "learn": "Deal bonus damage after attacking a target several times.\n\nLevel 1 - 4 attacks, 80 bonus damage. \nLevel 2 - 4 attacks, 115 bonus damage. \nLevel 3 - 4 attacks, 150 bonus damage.\nLevel 4 - 4 attacks, 185 bonus damage.\nLevel 5 - 4 attacks, 220 bonus damage.",
+  "levels": [
+   "Deathseeker Arrow stacks required reduced to 4."
+  ],
+  "name": "Deathseeker Arrows"
+ },
+ "AUd2": {
+  "desc": "",
+  "learn": "",
+  "levels": [
+   ". Each attack also increases attack rate by 8c"
+  ],
+  "name": "Deathseeker Arrows"
+ },
+ "AUdb": {
+  "desc": "",
+  "learn": "Deal bonus damage after attacking a target several times.\n\nLevel 1 - 4 attacks, 80 bonus damage. \nLevel 2 - 4 attacks, 115 bonus damage. \nLevel 3 - 4 attacks, 150 bonus damage.\nLevel 4 - 4 attacks, 185 bonus damage.\nLevel 5 - 4 attacks, 220 bonus damage.",
+  "levels": [],
+  "name": "Deathseeker Arrows"
+ },
+ "AUi1": {
+  "desc": "",
+  "learn": "Anya summons Banshees to attack nearby enemies. Banshee attacks restore some of the damage dealt as hit points to all nearby friendly units and apply a debuff that increases Magic Damage taken by 30%.\n\nLevel 1 - 5 Banshees, 30% damage dealt \nLevel 2 - 7 Banshees, 40% damage dealt \nLevel 3 - 9 Banshees, 50% damage dealt",
+  "levels": [],
+  "name": "Banshee's Wail"
+ },
+ "AUi3": {
+  "desc": "",
+  "learn": "Anya summons Banshees to attack nearby enemies. Banshee attacks apply a debuff that increases Magic Damage taken .\n\nLevel 1 - 8 Banshees \nLevel 2 - 10 Banshees \nLevel 3 - 12 Banshees.",
+  "levels": [],
+  "name": "Banshee's Wail"
+ },
+ "AUl2": {
+  "desc": "",
+  "learn": "Create a tether between Anya and a friendly unit, dispelling negative debuffs, healing the target and granting Magic Resistance.\nDrains mana until deactivated. \n\nLevel 1 - 40 hit points per second, 10% Magic Resistance, drains 15 mana per second. \nLevel 2 - 55 hit points per second, 15% Magic Resistance, drains 15 mana per second. \nLevel 3 - 70 hit points per second, 20% Magic Resistance, drains 15 mana per second. \nLevel 4 - 85 hit points per second, 25% Magic Resistance, drains 15 mana per second. \nLevel 5 - 100 hit points per second, 30% Magic Resistance, drains 15 mana per second.",
+  "levels": [
+   "Create a tether between Anya and a friendly unit. Dispels negative debuffs on the target. While the tether is active, the target is healed for 40 hit points per second and grants 10% Magic Resistance.\nDrains 15 mana per second until deactivated.",
+   "Create a tether between Anya and a friendly unit. Dispels negative debuffs on the target. While the tether is active, the target is healed for 55 hit points per second and grants 15% Magic Resistance.\nDrains 15 mana per second until deactivated.",
+   "Create a tether between Anya and a friendly unit. Dispels negative debuffs on the target. While the tether is active, the target is healed for 70 hit points per second and grants 20% Magic Resistance.\nDrains 15 mana per second until deactivated.",
+   "Create a tether between Anya and a friendly unit. Dispels negative debuffs on the target. While the tether is active, the target is healed for 85 hit points per second and grants 25% Magic Resistance.\nDrains 15 mana per second until deactivated.",
+   "Create a tether between Anya and a friendly unit. Dispels negative debuffs on the target. While the tether is active, the target is healed for 100 hit points per second and grants 30% Magic Resistance.\nDrains 15 mana per second until deactivated."
+  ],
+  "name": "Soul Lantern"
+ },
+ "AUla": {
+  "desc": "",
+  "learn": "Create a tether between Anya and a friendly unit, dispelling negative debuffs and healing the target.\nDrains mana until deactivated. \n\nLevel 1 - 25 hit points per second, drains 15 mana per second. \nLevel 2 - 35 hit points per second, drains 15 mana per second. \nLevel 3 - 45 hit points per second, drains 15 mana per second. \nLevel 4 - 55 hit points per second, drains 15 mana per second. \nLevel 5 - 65 hit points per second, drains 15 mana per second.",
+  "levels": [
+   "Create a tether between Anya and a friendly unit. Dispels negative debuffs on the target. While the tether is active, the target is healed for 25 hit points per second.\nDrains 15 mana per second until deactivated.",
+   "Create a tether between Anya and a friendly unit. Dispels negative debuffs on the target. While the tether is active, the target is healed for 35 hit points per second.\nDrains 15 mana per second until deactivated.",
+   "Create a tether between Anya and a friendly unit. Dispels negative debuffs on the target. While the tether is active, the target is healed for 45 hit points per second.\nDrains 15 mana per second until deactivated.",
+   "Create a tether between Anya and a friendly unit. Dispels negative debuffs on the target. While the tether is active, the target is healed for 55 hit points per second.\nDrains 15 mana per second until deactivated.",
+   "Create a tether between Anya and a friendly unit. Dispels negative debuffs on the target. While the tether is active, the target is healed for 65 hit points per second.\nDrains 15 mana per second until deactivated."
+  ],
+  "name": "Soul Lantern"
+ },
+ "AUr2": {
+  "desc": "",
+  "learn": "",
+  "levels": [
+   "Battering Ram now also grants 5% Critical Strike chance per enemy hit."
+  ],
+  "name": "Battering Ram"
+ },
+ "AUr3": {
+  "desc": "",
+  "learn": "Dash towards a target point, dealing damage, gaining bonus attack damage and stunning enemy units.\n\nLevel 1 - 100 damage, 3 bonus damage per enemy unit hit, 0 second stun. \nLevel 2 - 125 damage, 6 bonus damage per enemy unit hit, 0 second stun. \nLevel 3 - 150 damage, 9 bonus damage per enemy unit hit, 0 second stun.\nLevel 4 - 175 damage, 12 bonus damage per enemy unit hit, 0 second stun.\nLevel 5 - 200 damage, 15 bonus damage per enemy unit hit, 0 second stun.",
+  "levels": [
+   "Dashes towards a target point, dealing 100 damage to enemy units hit along the way, and gaining 3 bonus damage for every enemy unit hit. Enemies hit are stunned for 0 seconds. \nLasts 7 seconds.",
+   "?mage, 6 #",
+   "ining 9 #",
+   "nemy unit hit, 0 second stun.\nLevel 5 c",
+   "gaining 15 #"
+  ],
+  "name": "Battering Ram"
+ },
+ "AUs1": {
+  "desc": "",
+  "learn": "Strikes the target area, dealing damage, reducing armor and restoring hit points per unit hit. \n\nLevel 1 - 100 damage, 175% of Strength as damage, 2 armor reduction, 25 hit points. \nLevel 2 - 175 damage, 175% of Strength as damage, 2 armor reduction, 35 hit points. \nLevel 3 - 250 damage, 175% of Strength as damage, 3 armor reduction, 45 hit points. \nLevel 4 - 325 damage, 175% of Strength as damage, 3 armor reduction, 55 hit points. \nLevel 5 - 400 damage, 175% of Strength as damage, 4 armor reduction, 65 hit points.",
+  "levels": [
+   "Strikes the target area, dealing 100 damage and 175% of Garek's Strength as damage to enemy units, reducing their armor by 2, and restoring 25 hit points per unit hit."
+  ],
+  "name": "Relentless Cleave"
+ },
+ "AUs2": {
+  "desc": "",
+  "learn": "",
+  "levels": [
+   "h as damage per second for 10 seconds."
+  ],
+  "name": "Relentless Cleave"
+ },
+ "AUs3": {
+  "desc": "",
+  "learn": "Strikes the target area, dealing damage, reducing armor and restoring hit points per unit hit. Garek’s attacks reduce the cooldown of this ability.. \n\nLevel 1 - 100 damage, 2 armor reduction, 25 hit points, 1 second cooldown reduction. \nLevel 2 - 175 damage, 2 armor reduction, 35 hit points, 1 second cooldown reduction. \nLevel 3 - 250 damage, 3 armor reduction, 45 hit points, 1 second cooldown reduction. \nLevel 4 - 325 damage, 3 armor reduction, 55 hit points, 1 second cooldown reduction. \nLevel 5 - 400 damage, 4 armor reduction, 65 hit points, 1 second cooldown reduction.",
+  "levels": [
+   "Strikes the target area, dealing 100 damage to enemy units, reducing their armor by 2, and restoring 25 hit points per unit hit. Garek’s attacks reduce the cooldown by 1 seconds.",
+   "Strikes the target area, dealing 175 damage to enemy units, reducing their armor by 2, and restoring 35 hit points per unit hit. Garek’s attacks reduce the cooldown by 1 seconds.",
+   "Strikes the target area, dealing 250 damage to enemy units, reducing their armor by 3, and restoring 45 hit points per unit hit. Garek’s attacks reduce the cooldown by 1 seconds.",
+   "Strikes the target area, dealing 325 damage to enemy units, reducing their armor by 3, and restoring 55 hit points per unit hit. Garek’s attacks reduce the cooldown by 1 seconds.",
+   "Strikes the target area, dealing 400 damage to enemy units, reducing their armor by 4, and restoring 65 hit points per unit hit. Garek’s attacks reduce the cooldown by 1 seconds."
+  ],
+  "name": "Relentless Cleave"
+ },
+ "AUsw": {
+  "desc": "",
+  "learn": "Strikes the target area, dealing damage, reducing armor and restoring hit points per unit hit. \n\nLevel 1 - 100 damage, 2 armor reduction, 25 hit points. \nLevel 2 - 175 damage, 2 armor reduction, 35 hit points. \nLevel 3 - 250 damage, 3 armor reduction, 45 hit points. \nLevel 4 - 325 damage, 3 armor reduction, 55 hit points. \nLevel 5 - 400 damage, 4 armor reduction, 65 hit points.",
+  "levels": [
+   "Strikes the target area, dealing 100 damage to enemy units, reducing their armor by 2, and restoring 25 hit points per unit hit.",
+   "Strikes the target area, dealing 175 damage to enemy units, reducing their armor by 2, and restoring 35 hit points per unit hit.",
+   "Strikes the target area, dealing 250 damage to enemy units, reducing their armor by 3, and restoring 45 hit points per unit hit.",
+   "Strikes the target area, dealing 325 damage to enemy units, reducing their armor by 3, and restoring 55 hit points per unit hit.",
+   "Strikes the target area, dealing 400 damage to enemy units, reducing their armor by 4, and restoring 65 hit points per unit hit."
+  ],
+  "name": "Relentless Cleave"
+ },
+ "AUv1": {
+  "desc": "",
+  "learn": "",
+  "levels": [
+   "gain 10 Str#",
+   "gth, 20% bonus Resolve, and 20% Lifesteal. Bonuses are doubled when casc",
+   "urrent hit points to gain 25 bonus Strength, 25% bonus Ress"
+  ],
+  "name": "Grim Conviction"
+ },
+ "AUv3": {
+  "desc": "",
+  "learn": "Garek draws upon his inner strength, sacrificing hit points to gain bonus Strength, Resolve, and Lifesteal. \n\nLevel 1 - Costs 35% hit points; gain 15 Strength, 25% Resolve, 25% Lifesteal for 20 seconds. \nLevel 2 - Costs 35% hit points; gain 25 Strength, 30% Resolve, 30% Lifesteal for 20 seconds. \nLevel 3 - Costs 35% hit points; gain 35 Strength, 35% Resolve, 35% Lifesteal for 20 seconds.",
+  "levels": [
+   "Garek draws upon his inner strength, sacrificing 35% of his current hit points to gain 15 bonus Strength, 25% bonus Resolve, and 25% Lifesteal.\nLasts 20 seconds.",
+   "Garek draws upon his inner strength, sacrificing 35% of his current hit points to gain 25 bonus Strength, 30% bonus Resolve, and 30% Lifesteal.\nLasts 20 seconds.",
+   "Garek draws upon his inner strength, sacrificing 35% of his current hit points to gain 35 bonus Strength, 35% bonus Resolve, and 35% Lifesteal.\nLasts 20 seconds."
+  ],
+  "name": "Grim Conviction"
+ },
+ "AUvg": {
+  "desc": "",
+  "learn": "Garek draws upon his inner strength, sacrificing hit points to gain bonus Strength, Resolve, and Lifesteal. \n\nLevel 1 - Costs 35% hit points; gain 15 Strength, 25% Resolve, 25% Lifesteal for 20 seconds. \nLevel 2 - Costs 35% hit points; gain 25 Strength, 30% Resolve, 30% Lifesteal for 20 seconds. \nLevel 3 - Costs 35% hit points; gain 35 Strength, 35% Resolve, 35% Lifesteal for 20 seconds.",
+  "levels": [
+   "Garek draws upon his inner strength, sacrificing 35% of his current hit points to gain 15 bonus Strength, 25% bonus Resolve, and 25% Lifesteal.\nLasts 20 seconds.",
+   "Garek draws upon his inner strength, sacrificing 35% of his current hit points to gain 25 bonus Strength, 30% bonus Resolve, and 30% Lifesteal.\nLasts 20 seconds.",
+   "Garek draws upon his inner strength, sacrificing 35% of his current hit points to gain 35 bonus Strength, 35% bonus Resolve, and 35% Lifesteal.\nLasts 20 seconds."
+  ],
+  "name": "Grim Conviction"
+ },
+ "AUw1": {
+  "desc": "",
+  "learn": "Fire a magical arrow at a target area, dealing damage and applying a stack of Deathseeker Arrows to enemies hit. Anya’s attacks reduce the recharge time of Withering Fire.\n\nLevel 1 - 100 damage, max 2 charges, recharges every 10 seconds, -0.5 seconds on attack.\nLevel 2 - 150 damage, max 2 charges, recharges every 10 seconds, -0.5 seconds on attack.\nLevel 3 - 175 damage, max 3 charges, recharges every 10 seconds, -0.5 seconds on attack.\nLevel 4 - 200 damage, max 3 charges, recharges every 10 seconds, -0.5 seconds on attack.\nLevel 5 - 250 damage, max 4 charges, recharges every 10 seconds, -0.5 seconds on attack.",
+  "levels": [
+   "Fires a magical arrow at a target area, dealing 100 damage. Applies a stack of Deathseeker Arrows to enemies hit.\n2 charges, recharges every 10 seconds. -0.5 seconds on attack.",
+   "Fires a magical arrow at a target area, dealing 150 damage. Applies a stack of Deathseeker Arrows to enemies hit.\n2 charges, recharges every 10 seconds. -0.5 seconds on attack.",
+   "Fires a magical arrow at a target area, dealing 175 damage. Applies a stack of Deathseeker Arrows to enemies hit.\n3 charges, recharges every 10 seconds. -0.5 seconds on attack.",
+   "Fires a magical arrow at a target area, dealing 200 damage. Applies a stack of Deathseeker Arrows to enemies hit.\n3 charges, recharges every 10 seconds. -0.5 seconds on attack.",
+   "Fires a magical arrow at a target area, dealing 250 damage. Applies a stack of Deathseeker Arrows to enemies hit.\n4 charges, recharges every 10 seconds. -0.5 seconds on attack."
+  ],
+  "name": "Withering Fire"
+ },
+ "AUw3": {
+  "desc": "",
+  "learn": "Fire a magical arrow at a target area, dealing damage and applying a stack of Deathseeker Arrows to enemies hit.\n\nLevel 1 - 100 damage, max 2 charges, recharges every 10 seconds. \nLevel 2 - 150 damage, max 2 charges, recharges every 10 seconds. \nLevel 3 - 175 damage, max 3 charges, recharges every 10 seconds.\nLevel 4 - 200 damage, max 3 charges, recharges every 10 seconds.\nLevel 5 - 250 damage, max 4 charges, recharges every 10 seconds.",
+  "levels": [
+   "Fires a magical arrow at a target area, dealing 100 damage. Applies a stack of Deathseeker Arrows to enemies hit.\n2 charges, recharges every 10 seconds.",
+   "Fires a magical arrow at a target area, dealing 150 damage. Applies a stack of Deathseeker Arrows to enemies hit.\n2 charges, recharges every 10 seconds.",
+   "Fires a magical arrow at a target area, dealing 175 damage. Applies a stack of Deathseeker Arrows to enemies hit.\n3 charges, recharges every 10 seconds.",
+   "Fires a magical arrow at a target area, dealing 200 damage. Applies a stack of Deathseeker Arrows to enemies hit.\n3 charges, recharges every 10 seconds.",
+   "Fires a magical arrow at a target area, dealing 250 damage. Applies a stack of Deathseeker Arrows to enemies hit.\n4 charges, recharges every 10 seconds."
+  ],
+  "name": "Withering Fire"
+ },
+ "AUwc": {
+  "desc": "",
+  "learn": "Anya summons Banshees to attack nearby enemies. Banshee attacks apply a debuff that increases Magic Damage taken by 30%.\n\nLevel 1 - 5 Banshees \nLevel 2 - 7 Banshees \nLevel 3 - 9 Banshees",
+  "levels": [
+   "Anya summons 5 Banshees to attack nearby ene"
+  ],
+  "name": "Banshee's Wail"
+ },
+ "AUwf": {
+  "desc": "",
+  "learn": "Fire a magical arrow at a target area, dealing damage and applying a stack of Deathseeker Arrows to enemies hit.\n\nLevel 1 - 100 damage, max 2 charges, recharges every 10 seconds. \nLevel 2 - 150 damage, max 2 charges, recharges every 10 seconds. \nLevel 3 - 175 damage, max 3 charges, recharges every 10 seconds.\nLevel 4 - 200 damage, max 3 charges, recharges every \nLevel 5 - seconds.\nLevel 5 - 250 damage, max 4 charges, recharges every 10 seconds.",
+  "levels": [
+   "Fires a magical arrow at a target area, dealing 100 damage. Applies a stack of Deathseeker Arrows to enemies hit.\n2 charges, recharges every 10 seconds.",
+   "Fires a magical arrow at a target area, dealing 150 damage. Applies a stack of Deathseeker Arrows to enemies hit.\n2 charges, recharges every 10 seconds.",
+   "Fires a magical arrow at a target area, dealing 175 damage. Applies a stack of Deathseeker Arrows to enemies hit.\n3 charges, recharges every 10 seconds.",
+   "Fires a magical arrow at a target area, dealing 200 damage. Applies a stack of Deathseeker Arrows to enemies hit.\n3 charges, recharges every \nLevel 5 - seconds.",
+   "Fires a magical arrow at a target area, dealing 250 damage. Applies a stack of Deathseeker Arrows to enemies hit.\n4 charges, recharges every 10 seconds."
+  ],
+  "name": "Withering Fire"
+ },
+ "BT5a": {
+  "desc": "Reduces all attacks on Leonid by 10 damage.",
+  "learn": "",
+  "levels": [],
+  "name": "Iron Will"
+ },
+ "BT5b": {
+  "desc": "Gain 25% Resolve.",
+  "learn": "",
+  "levels": [],
+  "name": "Veteran's Resilience"
+ },
+ "BT5c": {
+  "desc": "Gain 8 hit point regeneration per second.",
+  "learn": "",
+  "levels": [],
+  "name": "Undead Vitality"
+ },
+ "BT6a": {
+  "desc": "Gain 10 bonus Strength, but reduces Agility by -5.",
+  "learn": "",
+  "levels": [],
+  "name": "Juggernaut"
+ },
+ "BT6b": {
+  "desc": "Gain 10% Magic Resistance.",
+  "learn": "",
+  "levels": [],
+  "name": "Thick Skin"
+ },
+ "UT5a": {
+  "desc": "Gain 5 armor.",
+  "learn": "",
+  "levels": [],
+  "name": "Improved Armor"
+ },
+ "UT5b": {
+  "desc": "Gain 15% Spell Amp.",
+  "learn": "",
+  "levels": [],
+  "name": "Swordsmanship"
+ },
+ "UT5c": {
+  "desc": "Grants 15 bonus Strength, but reduces Intelligence by -5.",
+  "learn": "",
+  "levels": [],
+  "name": "All Brawn"
+ },
+ "UT6a": {
+  "desc": "Garek's attacks now deal 25% Cleave damage.",
+  "learn": "",
+  "levels": [],
+  "name": "Mighty Swing"
+ },
+ "UT6b": {
+  "desc": "Reduce all cooldowns by 20%.",
+  "learn": "",
+  "levels": [],
+  "name": "Quick Recovery"
+ },
+ "UT6c": {
+  "desc": "Gain 20% Mana Efficiency.",
+  "learn": "",
+  "levels": [],
+  "name": "Warrior's Focus"
+ }
+}
