@@ -20,10 +20,41 @@ SUFFIX = ' Respec'
 COLUMNS = 3          # three hero panels fit a 975px window; more wrap to a second row
 
 
+def documents_folder():
+    """The real Documents folder, which Windows may have redirected into OneDrive."""
+    try:
+        import ctypes
+        import ctypes.wintypes as wt
+
+        class GUID(ctypes.Structure):
+            _fields_ = [('a', wt.DWORD), ('b', wt.WORD), ('c', wt.WORD),
+                        ('d', ctypes.c_byte * 8)]
+
+        tail = (ctypes.c_byte * 8)(*[c - 256 if c > 127 else c
+                                     for c in bytes.fromhex('adb46c85480369c7')])
+        documents = GUID(0xFDD39AD0, 0x238F, 0x46AF, tail)
+        out = ctypes.c_wchar_p()
+        if ctypes.windll.shell32.SHGetKnownFolderPath(
+                ctypes.byref(documents), 0, None, ctypes.byref(out)) == 0:
+            path = out.value
+            ctypes.windll.ole32.CoTaskMemFree(out)
+            if path:
+                return path
+    except Exception:
+        pass
+    return os.path.join(os.path.expanduser('~'), 'Documents')
+
+
 def default_folder():
-    pat = os.path.join(os.path.expanduser('~'), 'Documents', 'Warcraft III', 'BattleNet',
-                       '*', 'Campaigns', 'ForsakenKingdom')
-    hits = sorted(glob.glob(pat), key=os.path.getmtime, reverse=True)
+    """Newest ForsakenKingdom save folder, wherever Documents actually lives."""
+    home = os.path.expanduser('~')
+    roots = [documents_folder(), os.path.join(home, 'Documents')]
+    roots += glob.glob(os.path.join(home, 'OneDrive*', 'Documents'))
+    hits = []
+    for root in dict.fromkeys(roots):
+        hits += glob.glob(os.path.join(root, 'Warcraft III', 'BattleNet',
+                                       '*', 'Campaigns', 'ForsakenKingdom'))
+    hits = sorted(dict.fromkeys(hits), key=os.path.getmtime, reverse=True)
     return hits[0] if hits else ''
 
 

@@ -78,6 +78,29 @@ Tested on game build 3.0.0.24268. The tool warns when a save comes from a
 build it has not been tested on; Blizzard can change the save format in any
 patch.
 
+## If Windows blocks it
+
+`FKRespec.exe` is not code-signed, so the first time you run it Windows
+SmartScreen says "Windows protected your PC". Click **More info**, then **Run
+anyway**. That warning is about the file having no signature and no download
+history, not about anything it found.
+
+Antivirus software sometimes flags programs packaged this way - a Python
+program bundled into one executable looks, to a scanner, a little like
+something unpacking itself at startup. Windows Defender with current
+definitions reports this one clean. If another scanner disagrees, it is a false
+positive, and you have two ways to not take my word for it.
+
+Check the file is the one I published. Every release lists the SHA-256 of the
+exe; compare it with:
+
+```
+certutil -hashfile FKRespec.exe SHA256
+```
+
+Or skip the executable entirely and run the source, which is the same program
+without anything to trust: see below. It needs Python and nothing else.
+
 ## Running from source
 
 Python 3.8 or newer, no third-party packages.
