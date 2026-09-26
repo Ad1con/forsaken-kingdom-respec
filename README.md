@@ -115,7 +115,16 @@ untouched save reproduces it byte for byte, that a corrupted block is rejected,
 that every hero reads back sanely, that an edit reads back as the edit, and that
 the edits the tool refuses stay refused. It writes only to a temporary folder.
 
-`build.bat` produces `dist\FKRespec.exe` with PyInstaller.
+`build.bat` produces both downloads with PyInstaller and prints their SHA-256:
+
+- `dist\FKRespec.exe` - one file, the usual download
+- `dist\FKRespec-folder.zip` - the same program as a folder
+
+The folder build is there for anyone whose antivirus objects to the single
+file. A one-file build unpacks itself into a temporary folder at startup, which
+is the behavior scanners react to; the folder build simply loads its libraries
+the way any installed program does. Zipped, the two are the same size - extract
+it and run `FKRespec\FKRespec.exe`.
 
 `tools/memread.py <save folder>` refreshes `fkrespec/tooltips_data.json` from a
 running game. It is read-only (it opens the process for reading and scans for
