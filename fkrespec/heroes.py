@@ -29,8 +29,14 @@ CHOICES = 'abc'
 # hero whose ability list is not in the save is simply not found.
 ACTS = ('Act One', 'Act Two', 'Act Three')
 
-# (part, map prefixes, confirmed against a real save). An act can introduce a
-# hero the editor has never seen, so an unconfirmed part says so.
+# (part, map prefixes, confirmed against a real save).
+#
+# Act Three reads correctly from a real save - caps 5/5/5/3 and first ranks
+# 1/1/1/6, the same as Act Two - and the campaign's own Act Three maps add no
+# playable hero: Ilastar is a boss there and Landen survives only as an item
+# name. What is still unconfirmed is level_skip, which no save stores and which
+# the maps put in campaign-level data rather than per chapter, so it is carried
+# over from Act Two and treated as advice.
 PARTS = [
     ('Prologue',  ('HumanRE',),   True),
     ('Act One',   ('UndeadRE01',), True),

@@ -368,11 +368,11 @@ class PartTab(ttk.Frame):
         self.status.configure(text=(self.caveat() + note).lstrip())
 
     def caveat(self):
-        """Said on any part no save has confirmed: its heroes may not be these."""
+        """Said on any part whose rank costs no save has pinned down."""
         if not self.unchecked:
             return ''
-        return (f'  {self.part} is untested: an act can add a hero the editor '
-                f'has never seen, as Act Two does.')
+        return (f'  {self.part} is untested: how much hero level each rank '
+                f'after the first costs is taken from Act Two.')
 
     def write(self):
         if not all(p.refresh() for p in self.panels):
