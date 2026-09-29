@@ -193,7 +193,14 @@ class HeroPanel(ttk.LabelFrame):
     def stat_tip(self):
         text = self.save.tips.ability('Aaml', max(1, self.before.stat)) or 'Attribute Bonus'
         rule = '─' * 30
-        return f'{text}\n\n{rule}\nRead-only. Stat points cannot be changed.'
+        note = 'Read-only. Stat points cannot be changed.'
+        if not self.before.stat_known:
+            # Act Three grants points the level does not account for, and every
+            # hero shares one Attribute Bonus id, so there is nothing left to
+            # subtract the rank out of.
+            note = (f'{self.before.name} holds more points than their level '
+                    f'explains, so this rank cannot be read.\n' + note)
+        return f'{text}\n\n{rule}\n{note}'
 
     def talent_tip(self, row):
         chosen = self.pick_vars[row].get() if row in self.pick_vars else None

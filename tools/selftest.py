@@ -81,12 +81,20 @@ def main(argv):
                           all(lv <= st.rank_cap(i) for i, lv in enumerate(st.levels)),
                           f'{st.levels} vs reachable '
                           f'{[st.rank_cap(i) for i in range(4)]} at level {st.level}')
-                # every level grants exactly one point, so counting all five slots
-                # plus the unspent ones has to come back to the hero's level
-                check(f'{name:40} {st.name} points match the level',
-                      st.budget == st.level,
-                      f'{st.levels} + stat {st.stat} + {st.available} spare '
-                      f'!= level {st.level}')
+                # Every level grants one point, so all five slots plus the unspent
+                # ones come back to the hero's level - until Act Three hands out a
+                # pile at a story beat, after which the level explains only part of
+                # what a hero holds and Attribute Bonus is no longer derivable.
+                if st.granted:
+                    check(f'{name:40} {st.name} granted points are consistent',
+                          not st.stat_known and st.budget > st.level,
+                          f'granted {st.granted} but budget {st.budget} '
+                          f'vs level {st.level}')
+                else:
+                    check(f'{name:40} {st.name} points match the level',
+                          st.budget == st.level,
+                          f'{st.levels} + stat {st.stat} + {st.available} spare '
+                          f'!= level {st.level}')
             if states:
                 print(f'        ({time.perf_counter() - t:.2f}s, {len(save.d) / 1e6:.0f} MB payload)')
 

@@ -64,6 +64,12 @@ class HeroState:
         self.stat = 0
         self.stat_max = 0
         self.stat_required = 0
+        # Act Three hands every hero 16 skill points at a story beat, so the
+        # level stops accounting for every point a hero holds. When that has
+        # happened the Attribute Bonus rank cannot be worked out by subtraction
+        # and is reported as unknown rather than guessed at.
+        self.granted = 0                  # points the level does not explain
+        self.stat_known = True
         # A rule only where the requirement table has been read from the game;
         # advice elsewhere, since the save does not carry the level skip.
         self.gated = True
@@ -106,6 +112,7 @@ class HeroState:
         c.level_required = list(self.level_required)
         c.level_skip = list(self.level_skip)
         c.stat, c.stat_max, c.stat_required = self.stat, self.stat_max, self.stat_required
+        c.granted, c.stat_known = self.granted, self.stat_known
         c.gated = self.gated
         return c
 
@@ -208,9 +215,14 @@ class Save:
             # heroes.py holds the caps; a save only ever raises one, never lowers it
             s.max_levels[slot] = max(s.max_levels[slot], s.levels[slot])
         # Whatever the other four slots and the unspent counter leave over is in
-        # Attribute Bonus, which needs no object of its own.
+        # Attribute Bonus, which needs no object of its own - unless the campaign
+        # has granted points the level does not account for, in which case the
+        # subtraction goes negative and the rank is simply not knowable.
+        spare = s.level - s.available - sum(s.levels)
+        s.granted = max(0, -spare)
+        s.stat_known = s.granted == 0
         if s.stat_max:
-            s.stat = max(0, min(s.stat_max, s.level - s.available - sum(s.levels)))
+            s.stat = max(0, min(s.stat_max, spare))
         for row in h['rows']:
             for c in CHOICES:
                 if self._objects(talent_id(utype, row, c)):

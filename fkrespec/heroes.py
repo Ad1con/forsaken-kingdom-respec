@@ -31,17 +31,31 @@ ACTS = ('Act One', 'Act Two', 'Act Three')
 
 # (part, map prefixes, confirmed against a real save).
 #
-# Act Three reads correctly from a real save - caps 5/5/5/3 and first ranks
-# 1/1/1/6, the same as Act Two - and the campaign's own Act Three maps add no
-# playable hero: Ilastar is a boss there and Landen survives only as an item
-# name. What is still unconfirmed is level_skip, which no save stores and which
-# the maps put in campaign-level data rather than per chapter, so it is carried
-# over from Act Two and treated as advice.
+# Every part is confirmed now. The level_skip figures above were read off in-game
+# tooltips for a long time; they are checked against the game's own
+# Units/AbilityData.slk, which carries a levels, reqLevel and levelSkip column
+# per ability:
+#
+#   acts, basics     levelSkip 4          matches
+#   acts, ultimates  levelSkip 6          matches
+#   prologue         levelSkip 0          the engine default, which is 2
+#
+# A 0 there means "use the default", confirmed by the stock hero spells in the
+# same table - Blizzard, Storm Bolt, Wind Walk, Entangling Roots and Death Coil
+# all read 0 and all learn at hero level 1, 3 and 5. Of 278 hero abilities in
+# the table, 224 leave it at 0, 36 set 4 and 18 set 6; twelve of those are this
+# campaign's basics and ultimates. The max_levels come out of the same columns:
+# prologue 3/3/3/1, acts 5/5/5/3.
+#
+# Act Three needed nothing else: it uses the same ability ids as the other acts,
+# a real save reads caps 5/5/5/3 and first ranks 1/1/1/6, and the campaign's own
+# Act Three maps add no playable hero - Ilastar is a boss there and Landen
+# survives only as an item name.
 PARTS = [
     ('Prologue',  ('HumanRE',),   True),
     ('Act One',   ('UndeadRE01',), True),
     ('Act Two',   ('UndeadRE02',), True),
-    ('Act Three', ('UndeadRE03',), False),
+    ('Act Three', ('UndeadRE03',), True),
 ]
 CHECKED = {name for name, _prefixes, ok in PARTS if ok}
 
